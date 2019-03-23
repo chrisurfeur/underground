@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnderGround.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FFCA8E2C-CABB-4F60-99F7-B19ED7B20576}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnderGround.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnderGroundEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BE6CC01F-FED1-4D42-884F-55C7FFFAD5BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnderGround">
+      <UniqueIdentifier>{AFFF46D8-4E7E-4145-89D9-7125C3250BAF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnderGround\UnderGround.Build.cs">
+      <Filter>Source\UnderGround</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnderGround\UnderGround.cpp">
+      <Filter>Source\UnderGround</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnderGround\UnderGround.h">
+      <Filter>Source\UnderGround</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnderGround\UnderGroundGameModeBase.cpp">
+      <Filter>Source\UnderGround</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnderGround\UnderGroundGameModeBase.h">
+      <Filter>Source\UnderGround</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnderGround\UGPlayerController.cpp">
+      <Filter>Source\UnderGround</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnderGround\UGPlayerController.h">
+      <Filter>Source\UnderGround</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
