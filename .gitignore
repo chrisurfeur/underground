@@ -1,6 +1,9 @@
-.vs/
-Binaries/
-Intermediate/AssetRegistryCache/
-Intermediate/Build/
-Intermediate/ReimportCache/
-CachedAssetRegistry.bin
+ue4/.vs/
+ue4/Binaries/
+ue4/Intermediate/AssetRegistryCache/
+ue4/Intermediate/Build/
+ue4/Intermediate/ReimportCache/
+ue4/Intermediate/CachedAssetRegistry.bin
+ue4/Saved/Autosaves/Temp/
+ue4/Saved/Config/CrashReportClient/
+ue4/Saved/Logs/

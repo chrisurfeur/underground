@@ -10,6 +10,7 @@ void AUnderGroundGameModeBase::BeginPlay()
 
 void AUnderGroundGameModeBase::ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass)
 {
+	UE_LOG(LogTemp, Warning, TEXT("AUnderGroundGameModeBase::ChangeMenuWidget"));
 	if (CurrentWidget != nullptr)
 	{
 		CurrentWidget->RemoveFromViewport();
